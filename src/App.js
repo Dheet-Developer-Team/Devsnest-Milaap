@@ -1,12 +1,12 @@
 import "./App.css";
-import LoginPage from "./components/LoginPage";
 import Background from "./components/background";
+import Page2 from "./components/page2";
 
 function App() {
   return (
     <div className="App">
       <Background />
-      <LoginPage />
+      <Page2 />
     </div>
   );
 }
