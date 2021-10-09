@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.sections {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* flex-direction: row; */
+  height: 70%;
+  /* margin: 20px; */
+  /* margin: 0 auto; */
+  width: 90%;
+  /* top: 10%; */
+  /* border: 2px solid white; */
+}
+
+.sections > .left {
+  margin: 10px;
+  flex: 4.5;
+  padding: 20px;
+  border: 2px solid yellow;
+}
+
+.sections > .right {
+  flex: 2;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(49, 45, 118);
+}
+
+input {
+  all: unset;
+  width: 100%;
+  height: 12%;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: none;
+  text-indent: 10px;
+  color: black;
+}
+button {
+  all: unset;
+}
+#submit-btn {
+  background-color: green;
+  width: 100%;
+  height: 11%;
+  border-radius: 10px;
+  box-shadow: none;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+.login-header {
+  padding-bottom: 1em;
+}
+
+.check-box {
+  all: inherit;
+  display: inline-block;
+  background-color: white;
+  /* border: 2px solid black; */
+  height: 1em;
+  width: 1em;
+}
+.link {
+  cursor: pointer;
+  color: rgb(0, 110, 255);
+  text-decoration: underline;
+}
