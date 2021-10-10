@@ -10,8 +10,9 @@ function App() {
       {/* <LoginPage /> */}
       {/* { <Teams /> */}
       <Details/>
+      {/* <LoginPage /> */}
+      {/* <Teams /> */}
     </div>
   );
 }
-
 export default App;

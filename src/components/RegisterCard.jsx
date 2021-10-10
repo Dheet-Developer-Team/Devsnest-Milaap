@@ -1,4 +1,5 @@
 export default function RegisterCard({ setLogin }) {
+ 
   return (
     <>
       <h2 className="login-header">Register</h2>
