@@ -18,7 +18,7 @@ const LoginPage = () => {
         </div>
         <div className="right">
           {login ? (
-            <LoginCard setLogin={setLogin} className="hello" />
+            <LoginCard setLogin={setLogin} />
           ) : (
             <RegisterCard setLogin={setLogin} />
           )}
