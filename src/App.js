@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <Background />
-      <Page2 />
+      {/* <Page2 /> */}
       <Teams />
     </div>
   );
-
+}
 export default App;

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./SCSS/page2.scss";
+
 export const Page2 = () => {
   return (
     <div>
