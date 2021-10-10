@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Search from './Search';
+import TeamNav from './TeamNav';
 import "./SCSS/teams.scss";
 
 const Teams = () => {
@@ -10,10 +11,8 @@ const Teams = () => {
         <p>{TeamName}</p>
         <Search />
       </div>
-      <div className="teamnav">
-        <p>{TeamName}</p>
-        <p>Enter</p>
-      </div>
+    <TeamNav />
+    <TeamNav />
     </div>
   );
 };
